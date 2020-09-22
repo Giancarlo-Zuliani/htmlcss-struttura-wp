@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0:
+}
+body{
+  margin:auto;
+  width:85vw;
+  height: 85vh;
+}
+header{
+  margin:20px 0;
+  width:100%;
+  /* DEBUG:  */
+  height:20%;
+  background-color: yellow;
+}
+aside{
+  margin:20px 0;
+  width:20%;
+  /* DEBUG:  */
+  height:25%;
+  background-color: pink;
+
+}
+section{
+  margin:20px;
+  width:50%;
+  float: left;
+  /* DEBUG:  */
+  height:60%;
+  background-color: purple;
+}
+.right{
+  float:right;
+}
+.left{
+  float:left;
+  margin-right: 20px;
+}
+footer{
+  width:100%;
+  display:inline-block;
+  /* DEBUG:  */
+  height:20%;
+  background-color: blue;
+}
