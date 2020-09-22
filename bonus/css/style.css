@@ -3,6 +3,12 @@
   margin:0;
 }
 
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 body{
   background-image:url('../resources/background.jpg');
   margin:auto;
@@ -51,14 +57,14 @@ nav > span:hover{
   text-decoration: underline;
 }
 aside{
-  background-color:white;
   width:20%;
   margin:2% 0;
     /* DEBUG:  */
-    height:180px;
+
 }
 
 .left{
+  background-color: white;
   float:left;
   margin-right: 5%;
   height:250px;
@@ -66,8 +72,8 @@ aside{
 .right{
   margin-left: 5%;
   float:right;
-  clear:right;
 }
+
  section{
    margin-top: 2%;
    float:left;
@@ -92,10 +98,15 @@ footer > img{
   float:left;
   margin: 4% 0 0 22% ;
 }
-#credits{
-font-style: oblique;
+
+
+hr, footer > span{
+  color: #9a9a9a;
 }
 
-hr,#credits{
-  color: #9a9a9a;
+.white {
+  border-radius: 7px;
+  background: white;
+  height: 180px;
+  margin-bottom: 10px;
 }
