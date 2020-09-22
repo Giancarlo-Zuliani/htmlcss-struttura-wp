@@ -107,6 +107,16 @@ hr, footer > span{
 .white {
   border-radius: 7px;
   background: white;
-  height: 180px;
   margin-bottom: 10px;
+}
+
+.white > p{
+  font-size: 10px;
+  text-align: center;
+  padding: 15px 15px;
+
+}
+.white > h3{
+  padding:15px;
+  font-size: 15px;
 }
