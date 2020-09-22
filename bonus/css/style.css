@@ -80,7 +80,6 @@ aside{
 footer{
   text-align: center;
   font-size: 10px;
-  font-style: italic;
   width:100%;
   background-color: white;
   display:inline-block;
@@ -92,4 +91,11 @@ footer > img{
   width:5%;
   float:left;
   margin: 4% 0 0 22% ;
+}
+#credits{
+font-style: oblique;
+}
+
+hr,#credits{
+  color: #9a9a9a;
 }
