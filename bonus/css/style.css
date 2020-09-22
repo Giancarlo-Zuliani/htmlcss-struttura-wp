@@ -13,8 +13,6 @@ body{
   background-image:url('../resources/background.jpg');
   margin:auto;
   width:60vw;
-  /* DEBUG:  */
-    /* height: 90vh; */
 }
 
 header{
@@ -22,45 +20,43 @@ header{
   height: 20%;
   border: white solid 6px;
   margin-top:2%;
-  /* DEBUG:
-    background-color: red;
-    height:20%;*/
 }
+
 #jumbotron{
   background-size: cover;
   width: 100%;
   height: 100%;
 }
+
 aside,footer,section{
   border-radius: 7px;
 }
+
 nav{
   width:100%;
   text-align: center;
   border-radius: 0 0 7px 7px;
-  height:4%;
   background-color: grey;
-  /* DEBUG: */
 }
 
 nav > span{
-  font-size: 9px;
+  font-size: 8px;
   color:white;
-  margin:0 2% 0 0;
+  margin-left: 2%;
+  line-height: 30px;
   position:relative;
   top:20%;
-  font-weight: bolder;
+  font-weight: normal;
 }
 
 nav > span:hover{
   cursor:pointer;
   text-decoration: underline;
 }
+
 aside{
   width:20%;
   margin:2% 0;
-    /* DEBUG:  */
-
 }
 
 .left{
@@ -68,6 +64,7 @@ aside{
   float:left;
   margin-right: 5%;
 }
+
 .right{
   margin-left: 5%;
   float:right;
@@ -88,10 +85,9 @@ footer{
   font-size: 10px;
   width:100%;
   background-color: white;
-
-  /* DEBUG:  */
   height:80px;
 }
+
 footer > img{
   height:30%;
   width:5%;
@@ -114,28 +110,30 @@ hr, footer > span{
   font-size: 10px;
   text-align: center;
   padding: 15px 15px;
-
 }
+
 .white > h3{
   padding:15px;
   font-size: 15px;
 }
+
 section > h3{
   font-size: 20px;
   font-weight:normal;
   margin: 15px 0 25px 15px;
 }
+
 section > p {
   font-size: 12px;
   line-height: 20px;
   margin:20px;
   text-align: center;
 }
+
 .left > img{
   max-width: 20px;
   max-height: 20px;
   margin:10px 0 0 10px;
-
 }
 
 .left > span{
@@ -143,7 +141,6 @@ section > p {
   float:right;
   margin: 5px 30px 10px 0;
   line-height: 25px;
-
 }
 
 .list > span{
